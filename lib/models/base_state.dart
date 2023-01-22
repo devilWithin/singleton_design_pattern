@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 abstract class StateBase {
   @protected
-  String? initalText;
+  String? initialText;
   @protected
   String? stateText;
 
@@ -13,6 +13,6 @@ abstract class StateBase {
   }
 
   void reset() {
-    stateText = initalText;
+    stateText = initialText;
   }
 }

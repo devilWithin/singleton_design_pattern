@@ -5,8 +5,8 @@ class StateByDefinition extends StateBase {
   static StateByDefinition? _instance;
 
   StateByDefinition._internal() {
-    initalText = "A new 'StateByDefinition' instance has been created";
-    stateText = initalText;
+    initialText = "A new 'StateByDefinition' instance has been created";
+    stateText = initialText;
     debugPrint(stateText);
   }
 

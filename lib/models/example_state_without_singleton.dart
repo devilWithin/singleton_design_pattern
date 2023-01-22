@@ -3,9 +3,9 @@ import 'package:singleton_design_pattern/models/base_state.dart';
 
 class ExampleStateWithoutSingleton extends StateBase {
   ExampleStateWithoutSingleton() {
-    initalText =
+    initialText =
         "A new 'ExampleStateWithoutSingleton' instance has been created";
-    stateText = initalText;
+    stateText = initialText;
     debugPrint(stateText);
   }
 }

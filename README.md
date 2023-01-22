@@ -1,16 +1,23 @@
-# singleton_design_pattern
+# Simple app to demonstrate the usage and implementation of the Singleton Design Pattern
 
-A new Flutter project.
+## Ensure class only has one instance and provides a global point of access to it.
 
-## Getting Started
+## Base State Class
+- A base class for the abstraction of example's state which contains an initial text value,
+- a single text property and methods to operate it.
 
-This project is a starting point for a Flutter application.
+## State By Definition Class
+- This class is a Singleton which is implemented by definition.
 
-A few resources to get you started if this is your first Flutter project:
+## Example State Class
+- This class is a Singleton which is implemented using the Dart language capabilities.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Example State Without Singleton Class
+- This class is implemented without using a Singleton design pattern.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+- SingletonExample Screen uses all three different implementations of the state. Singleton implementations
+(StateByDefinition and ExampleState) create a new state object only on the first creation
+of the SingletonExample widget, but the ExampleStateWithoutSingleton instance is created on each
+creation of the SingletonExample widget.

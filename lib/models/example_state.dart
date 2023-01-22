@@ -9,8 +9,8 @@ class ExampleState extends StateBase {
   }
 
   ExampleState._internal() {
-    initalText = "A new 'ExampleState' instance has been created";
-    stateText = initalText;
+    initialText = "A new 'ExampleState' instance has been created";
+    stateText = initialText;
     debugPrint(stateText);
   }
 }
