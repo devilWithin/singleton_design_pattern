@@ -15,9 +15,7 @@
 ## Example State Without Singleton Class
 - This class is implemented without using a Singleton design pattern.
 
-
-
-- SingletonExample Screen uses all three different implementations of the state. Singleton implementations
-(StateByDefinition and ExampleState) create a new state object only on the first creation
-of the SingletonExample widget, but the ExampleStateWithoutSingleton instance is created on each
-creation of the SingletonExample widget.
+** SingletonExample Screen uses all three different implementations of the state. Singleton implementations
+  (StateByDefinition and ExampleState) create a new state object only on the first creation
+  of the SingletonExample widget, but the ExampleStateWithoutSingleton instance is created on each
+  creation of the SingletonExample widget.
